@@ -19,9 +19,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.eazegraph.lib.charts.ValueLineChart;
-import org.eazegraph.lib.models.ValueLinePoint;
-import org.eazegraph.lib.models.ValueLineSeries;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -39,8 +36,6 @@ public class StatisticsActivity extends AppCompatActivity {
     AppCompatSpinner spinnerTime, spinnerCategory;
     ImageView imageViewTime, imageViewCategory;
 
-    ValueLineChart mCubicValueLineChart;
-    ValueLineSeries series;
 
     ScrollView scroll1;
 
@@ -80,9 +75,6 @@ public class StatisticsActivity extends AppCompatActivity {
 
         spinnerCategory.setAdapter(categoryAdapter);
 
-        mCubicValueLineChart = (ValueLineChart) findViewById(R.id.cubiclinechart);
-        series=new ValueLineSeries();
-        series.setColor(0xFA56B7B4);
 
         checkImages();
 

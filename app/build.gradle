@@ -33,11 +33,11 @@ dependencies {
 
 //    Libraries
 
-    compile 'com.github.blackfizz:eazegraph:1.2.2@aar'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.yarolegovich:lovely-dialog:1.0.7'
     compile 'com.wdullaer:materialdatetimepicker:3.1.2'
     compile 'com.liuguangqiang.cookie:library:0.3'
+    compile 'com.github.lecho:hellocharts-library:1.5.8@aar'
 
     testCompile 'junit:junit:4.12'
 }
