@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amunga.david.diabeat.StatisticsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/card1"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:padding="10dp"
+
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/imageCategory"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_opacityblack"
+                    />
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:id="@+id/spinnerCategory"
+                        ></android.support.v7.widget.AppCompatSpinner>
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider"
+            android:layout_below="@+id/card1"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel1"
+        android:layout_margin="16dp"
+        android:id="@+id/scroll1"
+        >
+
+
+    </ScrollView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_below="@id/scroll1"
+        android:layout_margin="20dp"
+        android:id="@+id/cardGraph"
+        >
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="10dp"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Trend"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+
+                <!--/>-->
+
+            <!--<org.eazegraph.lib.charts.ValueLineChart-->
+                <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/cubiclinechart"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--app:egUseCubic="true"-->
+                <!--app:egUseOverlapFill="true"-->
+                <!--app:egCurveSmoothness="0.4"-->
+                <!--app:egIndicatorLineColor="@color/colorAccent"-->
+                <!--app:egLegendHeight="40dp"-->
+                <!--app:egShowStandardValue="true"-->
+
+                <!--app:egActivateIndicatorShadow="true"-->
+                <!--/>-->
+        <!--</RelativeLayout>-->
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

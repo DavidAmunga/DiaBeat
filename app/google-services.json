@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "781899600299",
+    "firebase_url": "https://diabeat-6927e.firebaseio.com",
+    "project_id": "diabeat-6927e",
+    "storage_bucket": "diabeat-6927e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781899600299:android:6d652a2f9dc2baef",
+        "android_client_info": {
+          "package_name": "com.amunga.david.diabeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781899600299-eml8jmv34fggpqi4ojhvhvs4m33hh0o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amunga.david.diabeat",
+            "certificate_hash": "ce92d7a69dc99a9796ec5571cc878ce02e1bffcd"
+          }
+        },
+        {
+          "client_id": "781899600299-65kvvc74a31ke3bl1847l79evkietrgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPjq7eteDLtkq0QWq2C1nLZuWamEQxutE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781899600299-65kvvc74a31ke3bl1847l79evkietrgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
