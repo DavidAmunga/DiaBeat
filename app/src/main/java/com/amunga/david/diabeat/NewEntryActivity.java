@@ -43,7 +43,7 @@ public class NewEntryActivity extends AppCompatActivity implements DatePickerDia
 
     private View card1,card2,card3;
 
-    private String alarmTime;
+    private String alarmTime = "";
 
     private DatabaseReference mDatabase;
 
